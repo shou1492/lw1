@@ -32,7 +32,7 @@ const cn = {
     Send: "发送",
     Config: {
       Reset: "重置默认",
-      SaveAs: "另存为面具",
+      SaveAs: "另存为应用",
     },
   },
   Export: {
@@ -40,7 +40,7 @@ const cn = {
     Copy: "全部复制",
     Download: "下载文件",
     MessageFromYou: "来自你的消息",
-    MessageFromChatGPT: "来自 ChatGPT 的消息",
+    MessageFromChatGPT: "来自 ChatGPT Plus的消息",
   },
   Memory: {
     Title: "历史摘要",
@@ -92,8 +92,8 @@ const cn = {
     Update: {
       Version: (x: string) => `加入QQ群`,
       IsLatest: "已是最新版本",
-      CheckUpdate: "检查更新",
-      IsChecking: "正在检查更新...",
+      CheckUpdate: "加载",
+      IsChecking: "正在加载",
       FoundUpdate: (x: string) => `避免迷路`,
       GoToUpdate: "点击加入",
     },
@@ -105,8 +105,8 @@ const cn = {
       SubTitle: "在预览气泡中预览 Markdown 内容",
     },
     Mask: {
-      Title: "面具启动页",
-      SubTitle: "新建聊天时，展示面具启动页",
+      Title: "应用启动页",
+      SubTitle: "新建聊天时，展示应用启动页",
     },
     Prompt: {
       Disable: {
@@ -150,11 +150,11 @@ const cn = {
       NoAccess: "输入 API Key 或访问密码查看余额",
     },
     AccessCode: {
-      Title: "访问密码",
-      SubTitle: "管理员已开启加密访问",
-      Placeholder: "请输入访问密码",
+      Title: "🔒授权码🔒",
+      SubTitle: "由于成本原因已开启授权访问",
+      Placeholder: "请输入授权码",
     },
-    Model: "模型 (model)",
+    Model: "模型（勿改） (model)",
     Temperature: {
       Title: "随机性 (temperature)",
       SubTitle: "值越大，回复越随机",
