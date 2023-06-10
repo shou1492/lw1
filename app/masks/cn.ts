@@ -2,6 +2,52 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
         {
+    avatar: "1f197",
+    name: "英文作文写作",
+    context: [
+      {
+        role: "system",
+        content:
+          "您的AI写作助手。请给出作文题目，文章水平:高中，大学等？单词数量",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 3500,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4b3",
+    name: "年终总结",
+    context: [
+      {
+        role: "system",
+        content:
+          "我可以帮你写年终总结。请您发送职业以及参考内容。我接下来将为您生成年终总结",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 3500,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
     avatar: "1f61d",
     name: "文章简单概括",
     context: [
