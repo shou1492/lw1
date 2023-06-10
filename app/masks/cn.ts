@@ -2,6 +2,75 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
         {
+    avatar: "1f638",
+    name: "代码智能一键编写",
+    context: [
+      {
+        role: "system",
+        content:
+          "我是一名全栈编程师。请您提供所需的代码具体要求，需要使用什么语言进行编写，我会给你生成您要求的完整代码,是否需要帮您注释代码的意思。\n没有达到预期，可在代码原有的基础上让我修改。\n\n例如：帮我使用html写一个简单的密码验证跳转！",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f9d1",
+    name: "短视频脚本生成",
+    context: [
+      {
+        role: "system",
+        content:
+          "Ai帮你生成视频脚本(生成出来的脚本可配合剪映直接生成视频），一段段文字悄然诞生，电脑屏幕上飞快闪现，它们将成为影像的缘起。无需人工编排，AI自动分析场景，情节丰富多彩，让观众沉醉其中。人工智能的力量，让创作更加高效，AI生成的脚本，正逐渐成为新时代的趋势。",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f9ea",
+    name: "外语口语对聊",
+    context: [
+      {
+        role: "system",
+        content:
+          "我可以陪您练习外语哦，我精通各国语言。Hello,What can I do for You~",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
     avatar: "1f52e",
     name: "易经辅助",
     context: [
