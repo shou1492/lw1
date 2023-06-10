@@ -26,7 +26,7 @@ export default function RootLayout({
       <head>
         <meta
           name="theme-color"
-          content="#FFC0CB"
+          content="##fafafa"
           media="(prefers-color-scheme: light)"
         />
         <meta
