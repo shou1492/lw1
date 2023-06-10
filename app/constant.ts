@@ -1,6 +1,6 @@
 export const OWNER = "Yidadaa";
 export const REPO = "ChatGPT-Next-Web";
-export const REPO_URL = `https://key.dk666.cc/03.png`;
+export const REPO_URL = `https://s1.locimg.com/2023/06/11/26c829d352862.jpeg`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `https://key.dk666.cc`;
 export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
