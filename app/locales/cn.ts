@@ -91,9 +91,6 @@ const cn = {
 
     Update: {
       Version: (x: string) => `加入QQ群`,
-      IsLatest: "已是最新版本",
-      CheckUpdate: "加载",
-      IsChecking: "正在加载",
       FoundUpdate: (x: string) => `避免迷路`,
       GoToUpdate: "点击加入",
     },
