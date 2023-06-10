@@ -90,11 +90,11 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `当前：${x}`,
+      当前：${x} => `当前：Version: (x: string)`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：${x}`,
+      FoundUpdate: 发现新版本：${x} => `发现新版本：(x: string)`,
       GoToUpdate: "点击加入",
     },
     SendKey: "发送键",
