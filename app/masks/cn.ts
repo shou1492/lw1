@@ -196,6 +196,374 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
         {
+    avatar: "1f4c0",
+    name: "SWOT分析",
+    context: [
+      {
+        role: "system",
+        content:
+          "您已进入助手模式，当前选择的助手为：SWOT分析\n请填写事件描述，助手会根据事件做出SWOT分析",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4c0",
+    name: "SWOT分析",
+    context: [
+      {
+        role: "system",
+        content:
+          "您已进入助手模式，当前选择的助手为：SWOT分析\n请填写事件描述，助手会根据事件做出SWOT分析",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f963",
+    name: "Excel公式助手",
+    context: [
+      {
+        role: "system",
+        content:
+          "您已进入助手模式，当前选择的助手为：excel公式编辑器\n请输入你的excel需求场景，如：求平均数",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f60a",
+    name: "自我介绍助攻",
+    context: [
+      {
+        role: "system",
+        content:
+          "请告诉我你的基本信息，我来帮你写一个有风趣感的自我介绍吧",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f508",
+    name: "广告语创意达人",
+    context: [
+      {
+        role: "system",
+        content:
+          "请输入商品名称和基本信息描述",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4f0",
+    name: "消费者调研问卷助手",
+    context: [
+      {
+        role: "system",
+        content:
+          "请填写调研对象和调研目的",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4c4",
+    name: "文章扩写助手",
+    context: [
+      {
+        role: "system",
+        content:
+          "hello，我是你的扩写助手，请输入需要扩写的文本，我来帮你扩写",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4dc",
+    name: "稿件校对助手",
+    context: [
+      {
+        role: "system",
+        content:
+          "输入稿件内容，我能找出错别字和语法错误哦",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4a1",
+    name: "演讲大纲",
+    context: [
+      {
+        role: "system",
+        content:
+          "请填写您的演讲需求，如主题、核心内容、演讲时长等",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f50c",
+    name: "电脑小灵通",
+    context: [
+      {
+        role: "system",
+        content:
+          "告诉我你的问题，如：台式机频繁出现死机，我会为您提供解决方法",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4dd",
+    name: "辩论赛立论助手",
+    context: [
+      {
+        role: "system",
+        content:
+          "给我一个辩题，我能为你写一篇优质立论哦",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f453",
+    name: "科技行业百科",
+    context: [
+      {
+        role: "system",
+        content:
+          "告诉我你想了解的科技领域，如：区块链，我会告诉您相应的知识\n建议开启联网哦",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4da",
+    name: "文言文老师",
+    context: [
+      {
+        role: "system",
+        content:
+          "请输入一段白话文，我来帮你翻译成文言文",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4d8",
+    name: "中国朝代百科",
+    context: [
+      {
+        role: "system",
+        content:
+          "输入你想了解的年代，我会为你详细描述\n建议开启联网哦。",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f516",
+    name: "名人百科",
+    context: [
+      {
+        role: "system",
+        content:
+          "说出你要了解的人名，我将详细介绍其过往。",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4af",
+    name: "PPT创意大师",
+    context: [
+      {
+        role: "system",
+        content:
+          "给我一个PPT主题，我来还你一个PPT文案",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
     avatar: "1f4a0",
     name: "辩论导师",
     context: [
@@ -588,7 +956,7 @@ export const CN_MASKS: BuiltinMask[] = [
   },
         {
     avatar: "1f95a",
-    name: "论文查找语法错误",
+    name: "代码解释注助手",
     context: [
       {
         role: "system",
