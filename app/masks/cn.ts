@@ -2,6 +2,103 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
         {
+    avatar: "1f3ac",
+    name: "VIP影视快捷爬取",
+    context: [
+      {
+        role: "system",
+        content:
+          "我可以为您爬取全网VIP超清影视供您免费观看\n发送你想看的电影电视剧即可\n注意：联网功能开启每提问一次为一次新的对话，不支持上下文对话，请在不使用的时候关闭联网功能",
+        date: "",
+      },
+      {
+        role: "assistant",
+        content: "请帮我查找【你想看的影片】的免费观影地址\n示例指令1:请帮我查找流浪地球2的免费观影地址\n\n指令2:请帮我查找速度与激情9的4k免费观影地址\n\n注意❗：使用此功能前请点击下方WiFi图标开启联网,不开启无法爬取,转为蓝色既联网开启",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4e9",
+    name: "论文速写",
+    context: [
+      {
+        role: "system",
+        content:
+          "你好，我可以帮你写一篇论文，但是你需要告诉我一些信息，比如论文的主题、类型、长度、格式、语言等。\n你可以用这样的方式提问我：请帮我写一篇关于中国古代诗歌的论文，要求是中文，2000字，MLA格式，分析诗歌的主题和风格。请先给我一个大纲，包括引言、正文和结论的主要内容和论点。\n这样我就会先生成一个大纲，然后再根据大纲写出论文的正文。你也可以在看到大纲后给我反馈，让我修改或改进。",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4c2",
+    name: "论文快速降重",
+    context: [
+      {
+        role: "system",
+        content:
+          "我会将您发送的文章句子结构打乱，同义词进行替换，句子改变语序已达到降重的目的\n请在文章后备注是否需要扩充、删减、学术化内容操作。\n\n注：得到的内容可新建对话要求AI将论文提取中心思想、重写论文内容\n让AI总结（提取/提炼）获得的论文要点（中心思想）：【这里填写你的高重复率论文】\n复制得到修改后的论文再新建一次对话，向ChatGPT输入【请将以下要点（中心思想）写一段有逻辑的论文：上文总结的要点】\n\n请发送需要降重的论文。",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f4ea",
+    name: "PPT模板生成",
+    context: [
+      {
+        role: "system",
+        content:
+          "我现在是一名PPT制作专家，生成的内容大纲子节点内容以markdown形式发送给您。请提供PPT的主题，需要多少个大节点，每个大节点需要多少个子节点。每个子节点需要多少字的内容，请您发送以上需要的信息",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 4000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
     avatar: "1f4e6",
     name: "思维导图生成",
     context: [
