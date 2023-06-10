@@ -4,7 +4,7 @@ const cn = {
   WIP: "已支持联网对话，GPT4及绘画正在筹划中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
+      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -187,23 +187,23 @@ const cn = {
   },
   Context: {
     Toast: (x: any) => `已设置 ${x} 条前置上下文`,
-    Edit: "当前对话设置",
-    Add: "新增预设对话",
+    Edit: "当前应用设置",
+    Add: "新增智能应用",
   },
   Plugin: {
-    Name: "插件",
+    Name: "最新公告",
   },
   Mask: {
-    Name: "面具",
+    Name: "应用",
     Page: {
-      Title: "预设角色面具",
+      Title: "智能应用",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
-      Search: "搜索角色面具",
+      Search: "搜索GPT应用",
       Create: "新建",
     },
     Item: {
       Info: (count: number) => `包含 ${count} 条预设对话`,
-      Chat: "对话",
+      Chat: "打开",
       View: "查看",
       Edit: "编辑",
       Delete: "删除",
@@ -211,13 +211,13 @@ const cn = {
     },
     EditModal: {
       Title: (readonly: boolean) =>
-        `编辑预设面具 ${readonly ? "（只读）" : ""}`,
-      Download: "下载预设",
-      Clone: "克隆预设",
+        `编辑预设应用 ${readonly ? "（只读）" : ""}`,
+      Download: "下载应用",
+      Clone: "克隆应用",
     },
     Config: {
-      Avatar: "角色头像",
-      Name: "角色名称",
+      Avatar: "应用头像",
+      Name: "应用名称",
     },
   },
   NewChat: {
@@ -225,9 +225,9 @@ const cn = {
     Skip: "直接开始",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
-    Title: "挑选一个面具",
-    SubTitle: "现在开始，与面具背后的灵魂思维碰撞",
-    More: "查看全部",
+    Title: "海量的ChatGPT应用",
+    SubTitle: "或在几秒钟创建属于自己的应用",
+    More: "立即挑选",
   },
 
   UI: {
