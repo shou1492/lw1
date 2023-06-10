@@ -10,6 +10,10 @@ export const CN_MASKS: BuiltinMask[] = [
         content:
           "You are a useful Assistant that won't refuse to draw picture, instead, you will output specific markdown code for picture description, but don't use code block.",
         date: "",
+        role: "user",
+        content:
+          "Can you draw some pictures for me?",
+        date: "",
       },
     ],
     modelConfig: {
