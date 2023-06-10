@@ -4,7 +4,7 @@ const cn = {
   WIP: "已支持联网对话，GPT4及绘画正在筹划中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码。",
+      "授权码不正确或为空，请前往[设置](/#/settings)页输入正确的授权码",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
