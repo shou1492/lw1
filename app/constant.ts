@@ -1,8 +1,8 @@
 export const OWNER = "Yidadaa";
 export const REPO = "ChatGPT-Next-Web";
-export const REPO_URL = `https://www.google.com`;
+export const REPO_URL = `https://s1.locimg.com/2023/06/11/1afb7f3112bd7.png`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
-export const UPDATE_URL = `https://www.baidu.com`;
+export const UPDATE_URL = `https://s1.locimg.com/2023/06/11/1afb7f3112bd7.png`;
 export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
 export const FETCH_TAG_URL = `https://api.github.com/repos/${OWNER}/${REPO}/tags?per_page=1`;
 export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
