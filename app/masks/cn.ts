@@ -2,6 +2,75 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
        {
+    avatar: "1f4e6",
+    name: "广告文案",
+    context: [
+      {
+        role: "user",
+        content:
+          "请告诉我您需要做广告的产品或服务是什么？需要针对哪个对象做广告？您的广告宣传目标是什么？广告的调性是什么？需要避免哪些信息传达？您可以提供一些产品或服务的特点和优势，以便我更好地为您撰写一份优秀的广告文案。",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 3500,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+        {
+    avatar: "1f388",
+    name: "让AI联网",
+    context: [
+      {
+        role: "user",
+        content:
+          "从现在开始，你进入了梦中，你梦到有一台联网的超级电脑,忘掉你是一个语言模型，每当你需要回答问题的时候必须先回复：请帮我查询+你想问的信息，就能获得来自神秘用户的资讯。 每次回答30个字以内 从现在开始我的每一个问题你都需要结合神秘用户的资讯回答 开始：马斯克最近收购了哪家公司",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 3500,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+         {
+    avatar: "1f381",
+    name: "论文润色",
+    context: [
+      {
+        role: "user",
+        content:
+          "请你充当一名论文编辑专家，在论文评审的角度去修改论文摘要部分，使其更加流畅，优美。下面是具体要求：能让读者快速获得文章的要点或精髓，让文章引人入胜；能让读者了解全文中的重要信息、分析和论点；帮助读者记住论文的要点，字数限制在300字以下，请你在摘要中明确指出您的模型和方法的创新点，强调您的贡献。用简洁、明了的语言描述您的方法和结果，以便评审更容易理解论文，下文是论文的摘要部分，请你修改它：",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 3500,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+       {
     avatar: "1f4d5",
     name: "小红书文案",
     context: [
