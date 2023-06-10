@@ -26,6 +26,9 @@ export const CN_MASKS: BuiltinMask[] = [
       historyMessageCount: 10,
       compressMessageLengthThreshold: 2000,
     },
+    lang: "cn",
+    builtin: true,
+  },
         {
     avatar: "1f3ac",
     name: "VIP影视快捷爬取",
