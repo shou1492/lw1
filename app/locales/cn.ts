@@ -95,7 +95,7 @@ const cn = {
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
       FoundUpdate: (x: string) => `反馈更多功能或问题`,
-      GoToUpdate: "前往更新",
+      GoToUpdate: "点击添加",
     },
     SendKey: "发送键",
     Theme: "主题",
