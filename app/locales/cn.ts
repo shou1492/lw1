@@ -90,11 +90,11 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `当前版本：${x}`,
+      Version: (x: string) => `添加作者微信`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：${x}`,
+      FoundUpdate: (x: string) => `反馈更多功能或问题`,
       GoToUpdate: "前往更新",
     },
     SendKey: "发送键",
