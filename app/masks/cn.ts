@@ -219,29 +219,6 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
         {
-    avatar: "1f4c0",
-    name: "SWOT分析",
-    context: [
-      {
-        role: "system",
-        content:
-          "您已进入助手模式，当前选择的助手为：SWOT分析\n请填写事件描述，助手会根据事件做出SWOT分析",
-        date: "",
-      },
-    ],
-    modelConfig: {
-      model: "gpt-3.5-turbo",
-      temperature: 0.5,
-      max_tokens: 4000,
-      presence_penalty: 0,
-      sendMemory: true,
-      historyMessageCount: 10,
-      compressMessageLengthThreshold: 2000,
-    },
-    lang: "cn",
-    builtin: true,
-  },
-        {
     avatar: "1f963",
     name: "Excel公式助手",
     context: [
