@@ -7,7 +7,7 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "Bot同学 Puls",
+  title: "DK Bot同学 Puls",
   description: "Your personal Bot同学 Puls.",
   appleWebApp: {
     title: "Bot同学 Puls",
