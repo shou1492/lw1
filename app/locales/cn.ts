@@ -170,7 +170,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "ChatGPT Puls免费免费！！自由打赏5-10任意金额免费无次数限制，\n无限使用（💥免费使用全部功能💥）！！",
+    BotHello: "<h1 style='font-size: 28px; font-weight: bold;'>ChatGPT Puls</h1>\n ChatGPT Puls免费免费！！自由打赏5-10任意金额免费无次数限制，\n无限使用（💥免费使用全部功能💥）！！",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
