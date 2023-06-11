@@ -1,10 +1,10 @@
 export const OWNER = "Yidadaa";
-export const REPO = "ChatGPT-Next-Web";
+export const REPO = "ChatGPT";
 export const REPO_URL = `https://key.dk666.cc/64.jpeg`;
-export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
-export const UPDATE_URL = `https://key.dk666.cc`;
-export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
-export const FETCH_TAG_URL = `https://api.github.com/repos/${OWNER}/${REPO}/tags?per_page=1`;
+export const ISSUE_URL = `https://github.com`;
+export const UPDATE_URL = `https://key.dk666.cc/03.png`;
+export const FETCH_COMMIT_URL = `https://api.github.com`;
+export const FETCH_TAG_URL = `https://api.github.com`;
 export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
 
 export enum Path {
