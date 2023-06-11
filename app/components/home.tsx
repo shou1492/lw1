@@ -72,7 +72,7 @@ export function useSwitchTheme() {
 
     if (config.theme === "auto") {
       metaDescriptionDark?.setAttribute("content", "#151515");
-      metaDescriptionLight?.setAttribute("content", "#fafafa");
+      metaDescriptionLight?.setAttribute("content", "#F5F5F5");
     } else {
       const themeColor = getCSSVar("--themeColor");
       metaDescriptionDark?.setAttribute("content", themeColor);
