@@ -93,7 +93,7 @@ const cn = {
       Version: (x: string) => `添加作者微信`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
-      IsChecking: "正在检查更新...",
+      IsChecking: "正在检查...",
       FoundUpdate: (x: string) => `反馈更多功能或问题`,
       GoToUpdate: "点击添加",
     },
@@ -141,7 +141,7 @@ const cn = {
     },
 
     Usage: {
-      Title: "公益站点余额",
+      Title: "站点余额",
       SubTitle(used: any, total: any) {
         return `本月已使用 $${used}，订阅总额 $${total}`;
       },
@@ -154,18 +154,18 @@ const cn = {
       SubTitle: "由于成本原因已开启授权访问",
       Placeholder: "请输入授权码",
     },
-    Model: "模型（勿改） (model)",
+    Model: "模型（勿改）",
     Temperature: {
-      Title: "随机性 (temperature)",
+      Title: "随机性",
       SubTitle: "值越大，回复越随机",
     },
     MaxTokens: {
-      Title: "单次回复限制 (max_tokens)",
-      SubTitle: "单次交互所用的最大 Token 数",
+      Title: "单次回复限制",
+      SubTitle: "单次交互所用的最高次数",
     },
     PresencePenlty: {
-      Title: "话题新鲜度 (presence_penalty)",
-      SubTitle: "值越大，越有可能扩展到新话题",
+      Title: "话题新鲜度",
+      SubTitle: "值越大，越有可能扩展到新话题，太高会导致乱码",
     },
   },
   Store: {
