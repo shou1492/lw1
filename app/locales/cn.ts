@@ -147,7 +147,7 @@ const cn = {
       },
       IsChecking: "正在检查…",
       Check: "重新检查",
-      NoAccess: "输入 API Key 或访问密码查看余额",
+      NoAccess: "请输入授权码码可以看到，余额不足时请通知作者",
     },
     AccessCode: {
       Title: "🔒授权码🔒",
