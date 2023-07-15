@@ -7,10 +7,10 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "dk666 ChatGPT Puls",
-  description: "Your personal dk666 ChatGPT Puls.",
+  title: "ChatGPT Puls",
+  description: "免费没有限制的随时随地使用带有联网功能的ChatGPT Puls.",
   appleWebApp: {
-    title: "dk666 ChatGPT Puls",
+    title: "ChatGPT Puls",
     statusBarStyle: "default",
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
