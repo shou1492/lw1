@@ -143,7 +143,7 @@ const cn = {
     Usage: {
       Title: "站点余额",
       SubTitle(used: any, total: any) {
-        return `本月已使用 $${used}，订阅总额 $50000`;
+        return `本月已使用 $${used}，订阅总额 $${total}`;
       },
       IsChecking: "正在检查…",
       Check: "重新检查",
