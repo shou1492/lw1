@@ -7,10 +7,10 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "ChatGPT Puls",
+  title: "ChatGPT Puls在线网页版-永久免费使用！",
   description: "ChatGPT是一个超强的Ai， 它会创作、写论文、答辦、编程等，本站基于ChatGPT官方GPT-3.5-turbo APl接口实现对话服务。免费没有限制的随时随地使用带有联网功能的ChatGPT Puls.",
   appleWebApp: {
-    title: "ChatGPT Puls在线网页版-永久免费使用！",
+    title: "ChatGPT Puls",
     statusBarStyle: "default",
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
