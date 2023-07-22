@@ -90,6 +90,10 @@ export const ALL_MODELS = [
     available: true,
   },
   {
+    name: "google-palm",
+    available: true,
+  },
+  {
     name: "qwen-v1", // 通义千问
     available: false,
   },
